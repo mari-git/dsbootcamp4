@@ -7,6 +7,13 @@ import matplotlib.pyplot as plt
 #############################################
 
 def grab_col_names(dataframe, cat_th=10, car_th=20):
+    '''
+    Deneme...
+    :param dataframe:
+    :param cat_th:
+    :param car_th:
+    :return:
+    '''
 
     cat_cols = [col for col in dataframe.columns if dataframe[col].dtypes == "O"]
 
